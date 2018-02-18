@@ -31,7 +31,8 @@ standard --env webextensions
 ## Licenses
 
 * [kjua][] is included as [`kjua.min.js`](src/kjua.min.js) and is “Copyright
-  (c) 2016 Lars Jung (https://larsjung.de)”, used under [MIT License][].
+  (c) 2016 Lars Jung (https://larsjung.de)”, used under the MIT License.
+  Please see the [`kjua-LICENSE`](kjua-LICENSE) file for more information.
 
 * Everything else is released under the BSD Zero Clause License (0BSD).
   Please see the [`LICENSE`](LICENSE) file for more information.
@@ -42,4 +43,3 @@ standard --env webextensions
 [openPopup]: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/browserAction/openPopup
 [JavaScript Standard Style]: https://standardjs.com/
 [kjua]: https://larsjung.de/kjua/
-[MIT License]: https://github.com/lrsjng/kjua/blob/11f3910a8906b4a0929abaf5a2f17d356748ef34/README.md#license

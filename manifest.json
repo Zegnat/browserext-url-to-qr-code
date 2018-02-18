@@ -1,0 +1,34 @@
+{
+    "name": "URL to QR code",
+    "version": "1.0",
+    "description": "Turns the current tab’s URL into a QR code. Alternatively the user can use the context menu on a link to get that link’s QR code.",
+    "icons": {
+        "16": "logo/qr-16.png",
+        "32": "logo/qr-32.png",
+        "64": "logo/qr-64.png"
+    },
+    "developer": {
+        "name": "Martijn van der Ven",
+        "url": "https://vanderven.se/martijn/"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "logo/qr-16.png",
+            "32": "logo/qr-32.png",
+            "64": "logo/qr-64.png"
+        },
+        "default_popup": "src/popup.html",
+        "default_title": "QR code for the current tab’s URL."
+    },
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ],
+        "persistent": true
+    },
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ]
+}

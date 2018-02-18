@@ -31,7 +31,7 @@ standard --env webextensions
 ## Licenses
 
 * [kjua][] is included as [`kjua.min.js`](src/kjua.min.js) and is “Copyright
-  (c) 2016 Lars Jung (https://larsjung.de)”, used under the MIT License.
+  (c) 2016 Lars Jung (<https://larsjung.de>)”, used under the MIT License.
   Please see the [`kjua-LICENSE`](kjua-LICENSE) file for more information.
 
 * Everything else is released under the BSD Zero Clause License (0BSD).
